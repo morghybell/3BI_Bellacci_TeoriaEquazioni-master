@@ -269,8 +269,8 @@ namespace EquazioniLibrary.Test
         public void DeltaTest1()
         {
             //valori passati al metodo da testare
-            double n1 = 2;
-            double n2 = -2;
+            double n1 = -2;
+            double n2 = 2;
             double n3 = 1;
             double ris_atteso = 12;
 
@@ -300,7 +300,7 @@ namespace EquazioniLibrary.Test
         {
             //valori passati al metodo da testare
             double n1 = 4;
-            double n2 = 2;
+            double n2 = 4;
             double n3 = 1;
             double ris_atteso = 0;
 
@@ -357,7 +357,7 @@ namespace EquazioniLibrary.Test
         }
 
         [TestMethod]
-        public void EquationDegree1Test3()
+        public void EquationDegree1Test4()
         {
             //valori passati al metodo da testare
             double n1 = 0;

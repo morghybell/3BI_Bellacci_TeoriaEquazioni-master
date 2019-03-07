@@ -76,25 +76,6 @@ namespace EquazioniLibrary
             return delta;
         }
 
-        //5 Verificare se un'equazione è di secondo grado
-        static public string EquationDegree1(double n1, double n2, double n3)
-        {
-            string risp = "";
-
-            if (Delta(n1, n2, n3) == 0) 
-            {
-                risp = "indeterminata";
-            }
-            else if (Delta(n1, n2, n3) > 0)
-            {
-                risp = "determinata";
-            }
-            else if (Delta(n1, n2, n3) < 0)
-            {
-                risp = "impossibile";
-            }
-
-            return risp;
-        }
+        
     }
 }

@@ -76,6 +76,27 @@ namespace EquazioniLibrary
             return delta;
         }
 
-        
+        //5 risolve un'equazione di primo grado
+        static public string EquationDegree1(double n1, double n2)
+        {
+            string risp = "";
+
+            if (IsIndetermined(n1, n2))
+            {
+                risp = "indeterminata";
+            }
+            else if (IsDetermined(n1, n2))
+            {
+                risp = Convert.ToString(-n2 / n1);
+            }
+            else if (IsInconsisted(n1, n2))
+            {
+                risp = "impossibile";
+            }
+
+            return risp;
+        }
+
+
     }
 }
